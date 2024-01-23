@@ -1,0 +1,33 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lado{
+    margin-top: 90px;
+    width: 600px;
+    height: 600px;
+    background-color: pink;
+    text-align: center;
+}
+.lado img{
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.row{
+    margin-left: 15px;
+    margin-top: 60px;
+    display: flex;
+    gap: 400px;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+    font-weight: bold;
+    border: 2px solid gray;
+    cursor: pointer;
+}
